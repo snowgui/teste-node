@@ -8,6 +8,8 @@ rotaHome(app);
 
 var rotaFormInclusaoNoticia = require('./app/routes/formulario_inclusao_noticia')(app);
 
+var rotaOoctoo = require('./app/routes/ooctoo')(app);
+
 app.listen(3000, function(){
   console.log("Servidor ON");
 });
