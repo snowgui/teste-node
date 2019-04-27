@@ -10,6 +10,7 @@ consign()
 .include('app/routes')
 .then('config/dbConnection.js')
 .then('config/dbConnectionooctoo.js')
+.then('app/models')
 .into(app);
 
 module.exports = app;
