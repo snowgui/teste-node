@@ -6,12 +6,13 @@ var connMySQL = function(){
     host : '127.0.0.1',
     user : 'root',
     password : '',
-    database : 'portal_noticias'
+    database : 'ooctoo'
     });
 }
 
 module.exports = function(){
-    console.log('Autoload carregou o módulo de conexao com o MySQL.')
+    console.log('Autoload carregou o módulo de conexao com o MySQL - ooctoo.')
     return connMySQL;
-  
 }
+
+
